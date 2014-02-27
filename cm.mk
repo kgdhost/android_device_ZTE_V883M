@@ -17,8 +17,8 @@ $(call inherit-product, device/ZTE/V883M/full_V883M.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 1280
-TARGET_SCREEN_WIDTH := 720
+TARGET_SCREEN_HEIGHT := 854
+TARGET_SCREEN_WIDTH := 480
 
 PRODUCT_NAME := cm_V883M
 PRODUCT_DEVICE := V883M
