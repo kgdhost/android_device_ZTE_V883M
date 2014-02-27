@@ -1,7 +1,7 @@
 #!/bin/sh
 
-VENDOR=wiko
-DEVICE=stairway
+VENDOR=ZTE
+DEVICE=V883M
 
 BASE=../../../vendor/$VENDOR/$DEVICE/proprietary
 
@@ -12,7 +12,7 @@ DIR=`dirname $FILE`
 mkdir -p $BASE/$DIR
     fi
 #adb pull /system/$FILE $BASE/$FILE
-cp /work/chris/android/wiko/research/test/system/system/$FILE $BASE/$FILE
+cp /work/chris/android/ZTE/research/test/system/system/$FILE $BASE/$FILE
 done
 
 ./setup-makefiles.sh

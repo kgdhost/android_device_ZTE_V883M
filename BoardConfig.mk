@@ -12,9 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-DEVICE_FOLDER := device/wiko/stairway
+DEVICE_FOLDER := device/ZTE/V883M
 
--include vendor/wiko/stairway/BoardConfigVendor.mk
+-include vendor/ZTE/V883M/BoardConfigVendor.mk
 
 TARGET_BOARD_PLATFORM := mt6589
 TARGET_ARCH := arm
@@ -33,7 +33,7 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_FLASH_BLOCK_SIZE := 512
 
 # EGL settings
-BOARD_EGL_CFG := device/wiko/stairway/egl.cfg
+BOARD_EGL_CFG := device/ZTE/V883M/egl.cfg
 USE_OPENGL_RENDERER := true
 
 TARGET_PREBUILT_KERNEL := $(DEVICE_FOLDER)/prebuilt/kernel
@@ -52,7 +52,7 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_FOLDER)/boot.mk
 
 TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := \
-	$(DEVICE_FOLDER)/releasetools/stairway_ota_from_target_files
+	$(DEVICE_FOLDER)/releasetools/V883M_ota_from_target_files
 
 # wifi
 BOARD_WPA_SUPPLICANT_DRIVER := WEXT
